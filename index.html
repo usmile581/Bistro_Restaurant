@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en-US">                                         <!--"Attribute: in the start tag"-->
+
+<head>                                                      <!--"A container for all the head elements (title, scripts, styles, meta information, and more)"--><title>My First HTML</title>
+  <title>HTML Meta Tag Example</title>
+  <meta name="author" content="Tutorials Point">
+
+  <style type="text/css">                             <!--The type attribute lets the browser know that CSS is coming--> <!--inside CSS use style, outside CSS use link(link has no close tag)-->
+    a {color:red;}
+  </style>                                            <!-- The selectors are in between the style tabs  -->
+
+             <link type="text/css" rel="stylesheet" href="main.css">     <!-- in head tag: -- import CSS file from outside -->
+             <script src="myScript.js"></script>                         <!--                 import javaScript file       -->
+
+
+</head> 
+
+<body style="background-color:white">                  <!--"style=: set color    "-->
+
+
+<div class="header">                                   <!--div: divison for header, so header can be different background color/styles -->
+  <h1 style="color:blue;">Start here</h1>
+  <hr>
+  <h5 style="font-family:verdana;font-size:300%;">My First Heading</h5>   <!--"style=: set font;font size    "-->                                
+  <h2 style="text-align:center;">This is Heading2</h2>                     <!--"style=: Center   "-->   
+  <hr>                                                        <!--"hr: add a Horizontal rule/thematic break"-->
+  <h6>This is Heading6</h6>
+</div>                                                 <!--close tag for div-->
+
+<div class="main-content">                             <!--div: division for main content, separate from the header-->
+  <p title="I'm a tooltip">This is a paragraph.</p>           <!--"title=: when you mouse over it/displayed as a tool tip"-->
+  <p style="color:pink;">This is another paragraph.</p>
+  <br>
+  <p style="font-size:300%;">3rd paragraph.</p>
+  <hr>
+  <a href="https://urldefense.proofpoint.com/v2/url?u=http-3A__www.w3schools.com&d=BQMGaQ&c=8nlCJSrIh_dUFbYhzMsm7vFNxJKfP9AUkTINxOasPog&r=eQTO3zgV9YcbMGcFMVWuN0BchCMpBVTRxbWIpmabKvE&m=UgLIyZhwaijaItaHBGlwAPRTYTPR8BJ6rOuzZqN8loI&s=_5Bgoqd0Na1fVaoU34TLYmEl38yqww0w6Kkvmbkr9wk&e=">This is a link</a>       <!--"a href=: link"-->
+  <a href="https://urldefense.proofpoint.com/v2/url?u=http-3A__www.w3schools.com&d=BQMGaQ&c=8nlCJSrIh_dUFbYhzMsm7vFNxJKfP9AUkTINxOasPog&r=eQTO3zgV9YcbMGcFMVWuN0BchCMpBVTRxbWIpmabKvE&m=UgLIyZhwaijaItaHBGlwAPRTYTPR8BJ6rOuzZqN8loI&s=_5Bgoqd0Na1fVaoU34TLYmEl38yqww0w6Kkvmbkr9wk&e=">link2</a>                           <!--"Quote may be omitted"-->
+  <img src="image1.png" alt="w3schools.com" width="104" height="142">    <!--"alt: when an image cannot be displayed"-->
+
+  <a href="default.asp">
+    <img src="image1.png" alt="HTML tutorial" style="width:42px;height:42px;border:0">
+  </a>                                                                   <!--image is a link-->
+
+
+  <p title="About w3Schools">paragraph</p>                               <!--"Quote cannot be omitted"-->
+  <p title='His nick name is "ShotGun"'>He is John.</p>                  <!--"Single Quote is used outside a double quote for attribute, or vice versa"-->
+
+
+  <p>
+  This paragraph
+  contains a lot of lines
+  in the source code,
+  but the browser 
+  ignores it.
+  </p>
+
+  <p>
+  This paragraph
+  contains         a lot of spaces
+  in the source         code,
+  but the        browser 
+  ignores it.
+  </p>
+
+  <p>This is<br>a paragraph<br>with line breaks.</p>                    <!--br: line break-->
+
+   <pre>
+    My Bonnie lies over the ocean.
+    My Bonnie lies over the sea.
+
+    My Bonnie lies over the ocean.
+
+    Oh, bring back my Bonnie to me.
+  </pre>                                                                <!--pre: keep the format-->
+
+  <p><b>This text is bold.</b></p>
+
+
+  <tagname style="property:value;"> 
+
+
+
+
+
+</div>
+
+<ul class=recipes>                                                <!--ul-li: create a list-->
+   <li> Jack Smith - Vocals</li>
+    <li>Sarah Quan - Guitar</li>
+    <li>Laverne Butlet - Bass</li>
+    <li>Simon St. Hollister - Drums</li>
+  </ul>
+
+ul {padding: 0 0 0 50px;}                        <!--CSS--  orginal ul style-->
+.recipes {list-style-type: none; padding:0;}     <!--CSS--  updated: remove the bullet points -->  <!--border-bottom:0  remove a border-->
+.recipes li {border:1px solid #b56663;
+             padding-left:15px;}                 <!--CSS--  updated: add a border for each list -->
+
+
+    <ol>                                                             <!--ol-li: create an ordered list-->
+      <li>Visible/Invisible</li>
+      <li>Car Trip</li>
+      <li> AFK</li>
+      <li>Up and Up</li>
+    </ol>
+
+
+                                                      <!--css  line height of text in a paragraph-->
+
+<div class="footer">                                                           <!--copyright symbol -->
+  <p>&copy; 2016 - Recipe World</p>
+</div>
+
+
+
+
+
+</body>
+</html>
